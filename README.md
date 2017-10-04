@@ -1,4 +1,6 @@
-# Images
+# Getting Started with Docker
+
+## Images
 
 - The filesystem and configuration of our application which are used to create containers.
 
@@ -6,7 +8,7 @@ To find out more about a Docker image, run docker image inspect alpine. In the d
 pull command to download the alpine image. When you executed the command docker container run hello-world, it also did a
 docker image pull behind the scenes to download the hello-world image.
 
-# Containers
+## Containers
 
 - Containers are running instances of Docker images - containers run the actual applications.
 
@@ -14,7 +16,7 @@ A container includes an application and all of its dependencies. It shares the k
 an isolated process in user space on the host OS. You created a container using docker run which you did using the
 alpine image that you downloaded. A list of running containers can be seen using the docker container ls command.
 
-# Other Notes
+## Other Notes
 
 - Docker daemon - The background service running on the host that manages building, running and distributing Docker
   containers.
@@ -24,7 +26,7 @@ alpine image that you downloaded. A list of running containers can be seen using
 - Docker Store - Store is, among other things, a registry of Docker images. You can think of the registry as a directory
 of all available Docker images.
 
-# Useful Commands
+## Useful Commands
 
 Where *alpine* is the image name.
 
