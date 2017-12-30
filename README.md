@@ -1,5 +1,9 @@
 # Getting Started with Docker
 
+## Overview
+
+This repository serves as some notes and references to Docker basics for myself and others who wish to use it. I originally made this repository a few months ago, however I have not worked on it since. I may add to this with some extra notes on Docker Compose and Docker Swarm in the future but for now this is it. Enjoy! 
+
 ## Images
 
 - The filesystem and configuration of our application which are used to create containers.
