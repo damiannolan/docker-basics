@@ -189,3 +189,5 @@ CMD ["python", "./app.py"]
 ```
 
 - EXPOSE opens ports in your image to allow communication to the outside world when it runs in a container.
+
+using as a test
