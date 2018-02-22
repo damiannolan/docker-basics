@@ -32,28 +32,34 @@ of all available Docker images.
 
 ## Useful Commands
 
-Where *alpine* is the image name.
+Where *alpine* is the image name for the linux version - alpine.
 
+Pull an image from the registry - default Docker Store as mentioned above
 ```
 docker image pull alpine
 ```
 
+Verify by listing all images
 ```
 docker image ls
 ```
 
+Run a container based on the image and list
 ```
 docker container run alpine ls -l
 ```
 
+Run a container based on the image in interactive mode and start a terminal inside the container via /bin/sh
 ```
 docker container run -it alpine /bin/sh
 ```
 
+List containers
 ```
 docker container ls
 ```
 
+List all containers
 ```
 docker container ls -a
 ```
@@ -190,4 +196,3 @@ CMD ["python", "./app.py"]
 
 - EXPOSE opens ports in your image to allow communication to the outside world when it runs in a container.
 
-using as a test
